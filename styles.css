@@ -18,13 +18,22 @@ body
 {
     background-color: #090957;
     width: 82%;
+    height: 258px;
     
     position: absolute;
-    top: 6%;
+    top: 8%;
     vertical-align: middle;
     text-align: center;
     margin-left: 8%;
     margin-right: 9%;
+}
+
+#calendar
+{
+    width: 370px;
+    height: 221px;
+    margin-right: 2px;
+    float: right;
 }
 
 #footer
@@ -135,6 +144,35 @@ body
     margin-top: 2%;
     display: inline-block;
     line-height: 1px;
+}
+
+#calmonth
+{
+    width: 370px;
+    height: 24px;
+}
+
+#calweek
+{
+    background-color: #1A1A57;
+    border-color: white;
+    border-width: 100px;
+    width: 52px;
+    height: 40px;
+    
+    float: left;
+}
+
+#calbox
+{
+    background-color: #1A1A57;
+    border-color: white;
+    border-width: medium;
+    border-radius: 20px;
+    width: 52px;
+    height: 40px;
+    
+    float: left;
 }
 
 /* Footer */
